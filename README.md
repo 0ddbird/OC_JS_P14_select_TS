@@ -18,7 +18,7 @@ A single option must follow this structure :
 
 ```js
 const option = {
-  name: 'Option name',
+  label: 'Option name',
   value: 'a unique option value'
 }
 ```
@@ -29,11 +29,11 @@ A set of options look like this:
 
 const options = [
   {
-    name: 'Option 1',
+    label: 'Option 1',
     value: 'value_1'
   },
   {
-    name: 'Option 2',
+    label: 'Option 2',
     value: 'value_2'
   }
 ]
@@ -49,11 +49,11 @@ const ParentComponent = () => {
 
   const currentOptions = [
     {
-      name: 'Option 1',
+      label: 'Option 1',
       value: 'one'
     },
     {
-      name: 'Option 2',
+      label: 'Option 2',
       value: 'two'
     },
 
